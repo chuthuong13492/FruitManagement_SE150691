@@ -30,7 +30,7 @@ import sample.shopping.ProductError;
         maxRequestSize = 1024 * 1024 * 5 * 5)
 @WebServlet(name = "AddProductController", urlPatterns = {"/AddProductController"})
 public class AddProductController extends HttpServlet {
-
+//blabla
     public static final String ERROR = "addProduct.jsp";
     public static final String SUCCESS = "manageProduct.jsp";
 
